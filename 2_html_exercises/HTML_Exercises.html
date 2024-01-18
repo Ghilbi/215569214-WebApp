@@ -24,18 +24,18 @@
     <h2>Forms</h2>
         <section>
             <ul>
-                <form action="/action_page.php" method=""get>
+                <form action="/action_page.php">
                     <label for= "fname">Username:</label>
-                    <input type="text" id="fname" name="fname" required minlength="12"><br>
+                    <input type="text" id="fname" name="fname" required minlength="4" maxlength="12"><br>
                     <label for= "fname">Password:</label>
-                    <input type="password" id="fname" name="fname" required minlength="12"><br> 
-                    <input type="radio" id="male" name="Gender" value="Male">
+                    <input type="password" id="fname" name="fname" required minlength="4" maxlength="12"><br> 
+                    <input type="radio" id="male" name="Gender" value="Male" required>
                     <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="Gender" value="Female">
+                    <input type="radio" id="female" name="Gender" value="Female" required>
                     <label for="female">Female</label><br>
-                    <input type="checkbox" name="checkbox" value="accept">
-                    <label for="checkbox">Click to accept our terms and conditions.</label><br>
-                    <button type="button">Submit</button><br>
+                    <input type="checkbox" name="checkbox" value="accept" required>
+                    <label for="checkbox" required>Click to accept our terms and conditions.</label><br>
+                    <button type="submit">Submit</button><br>
                 </form> 
             </ul>
         </section>
