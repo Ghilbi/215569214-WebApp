@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>HTML exercises</title>
+    </head>
+</html>
+<body>
+    <header>
+        <h1>2. HTML Exercises</h1>
+    </header>
+    <h2>Links</h2>
+    <nav>
+        <ul>
+            <a href = "#">Home</a> |
+            <a href = "#">About Us</a> |
+            <a href = "#">Contust Us</a> 
+        </ul>
+    </nav>
+    <h2>Image</h2>
+    <figure>
+        <img src="https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/37/Mahoraga_%28Anime%29.png/revision/latest/scale-to-width-down/1200?cb=20231120170418" alt="Mahoraga" style="width:350px;height:250px;">
+        <figcaption>Fig.1 - Mahoraga, jujutsu-kaisen.</figcaption>
+    </figure>
+    <h2>Forms</h2>
+        <section>
+            <ul>
+                <form action="/action_page.php">
+                    <label for= "fname">Username:</label>
+                    <input type="text" id="fname" name="fname" required minlength="4" maxlength="12"><br>
+                    <label for= "fname">Password:</label>
+                    <input type="password" id="fname" name="fname" required minlength="4" maxlength="12"><br> 
+                    <input type="radio" id="male" name="Gender" value="Male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="Gender" value="Female" required>
+                    <label for="female">Female</label><br>
+                    <input type="checkbox" name="checkbox" value="accept" required>
+                    <label for="checkbox" required>Click to accept our terms and conditions.</label><br>
+                    <button type="submit">Submit</button><br>
+                </form> 
+            </ul>
+        </section>
+    <h2>Tables</h2>
+    <article>
+        <ul>
+            <table style="width:10%">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+        </ul>
+    </article>
+    <footer>
+        <h2>Audio and Video</h2>
+        <audio controls>
+            <source src="mahoraga.mp3" type="audio/mpeg">
+        </audio>
+            <br>
+        <video width="320" height="240" controls>
+            <source src="mahoraga.mp4" type="video/mp4">
+        </video>
+    </footer>
+</body>
