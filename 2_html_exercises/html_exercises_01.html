@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-
+<html lang="en">
     <head>
         <title>HTML exercises</title>
     </head>
-</html>
+
+
 <body>
     <header>
         <h1>2. HTML Exercises</h1>
     </header>
     <h2>Links</h2>
     <nav>
-        <ul>
+        <div>
             <a href = "#">Home</a> |
             <a href = "#">About Us</a> |
             <a href = "#">Contust Us</a> 
-        </ul>
+        </div>
     </nav>
     <h2>Image</h2>
     <figure>
@@ -22,26 +23,25 @@
         <figcaption>Fig.1 - Mahoraga, jujutsu-kaisen.</figcaption>
     </figure>
     <h2>Forms</h2>
-        <section>
-            <ul>
-                <form action="/action_page.php">
-                    <label for= "fname">Username:</label>
-                    <input type="text" id="fname" name="fname" required minlength="4" maxlength="12"><br>
-                    <label for= "fname">Password:</label>
-                    <input type="password" id="fname" name="fname" required minlength="4" maxlength="12"><br> 
-                    <input type="radio" id="male" name="Gender" value="Male" required>
-                    <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="Gender" value="Female" required>
-                    <label for="female">Female</label><br>
-                    <input type="checkbox" name="checkbox" value="accept" required>
-                    <label for="checkbox" required>Click to accept our terms and conditions.</label><br>
-                    <button type="submit">Submit</button><br>
-                </form> 
-            </ul>
-        </section>
-    <h2>Tables</h2>
+        <div>
+            <form action="/action_page.php">
+                <label for= "uname">Username:</label>
+                <input type="text" id="uname" name="fname" required minlength="4" maxlength="12"><br>
+                <label for= "pass">Password:</label>
+                <input type="password" id="pass" name="password" required minlength="4" maxlength="12"><br> 
+                <input type="radio" id="male" name="Gender" value="Male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="Gender" value="Female" required>
+                <label for="female">Female</label><br>
+                <input type="checkbox" id="checkbox" name="tickbox" value="accept" required>
+                <label for="checkbox">Click to accept our terms and conditions.</label><br>
+                <button type="submit">Submit</button><br>
+            </form> 
+        </div>
+    
     <article>
-        <ul>
+        <h2>Tables</h2>
+        <div>
             <table style="width:10%">
                 <tr>
                     <th>Name</th>
@@ -59,7 +59,7 @@
                     <td>Los Angeles</td>
                 </tr>
             </table>
-        </ul>
+        </div>
     </article>
     <footer>
         <h2>Audio and Video</h2>
@@ -72,3 +72,4 @@
         </video>
     </footer>
 </body>
+</html>
