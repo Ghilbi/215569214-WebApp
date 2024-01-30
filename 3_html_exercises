@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="#">Home</a>|
+            <a href="#">Mahoraga</a>|
+            <a href="#">Location</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Mahoraga</h2>
+    </header>
+    <article>
+        <h2>Mahoraga</h2>
+        <p>Mahoraga is the most uncontrollable shikigami in the history of the Ten Shadows Technique. 
+            It has never been tamed or commanded like other familiars in the history of the entire Zenin Clan. 
+            However, users of the Ten Shadows Technique can summon it via an exorcism ritual in an attempt 
+            to exorcise it at any time.</p>
+    </article>
+</body>
+</html>
