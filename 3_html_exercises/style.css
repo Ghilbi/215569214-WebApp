@@ -66,3 +66,26 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.socials a {
+    margin: 0 10px;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 20px;
+}
