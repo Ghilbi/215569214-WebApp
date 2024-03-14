@@ -9,53 +9,120 @@
     <style type="text/css">
         .background {
             background: lightgrey;
+            width: 200px;
+            height: 400px;
+            position: relative;
+            margin: auto;
+            top: 50px;
+            border-radius: 10px;
         }
         .head {
-            background: transparent;
+            background: yellow;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 65px;
         }
         .eyeball {
-            background: transparent;
+            background: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            top: 25px;
+            left: 20px;
         }
         .pupil {
-            color: transparent;
+            background-color: black;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 5px;
         }
         .beak {
-            color: yellow;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid orange;
+            position: absolute;
+            top: 37px;
+            left: 44px;
         }
         .body {
-            background-color: white;
+            background-color: yellow;
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            top: 80px;
+            left: 25px;
+            border-radius: 50px;
         }
         .wing {
-            color: brown;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 40px solid #FFD580;
+            position: absolute;
+            top: 12px;
+            left: 0px;
+
+
+        }
+        .drumsticks {
+            position: absolute;
+            top: 170px;
+            left: 50px;
+        }
+        .drumstick, .drumstick-right {
+            width: 5px;
+            height: 60px;
+            background: brown;
+            position: absolute;
+        }
+        .drumstick::before, .drumstick-right::before {
+            content: '';
+            width: 20px;
+            height: 6px;
+            background: brown;
+            position: absolute;
+            bottom: 0;
         }
         .drumstick {
-            color: brown;
+            transform: rotate(20deg);
+            left: 10px;
         }
         .drumstick-right {
-            color: brown;
+            transform: rotate(-10deg);
+            left: 90px;
         }
     </style>
     <div class="canvas background">
         <div ckass="air background"></div>
         <div class="head">
             <div class="eyeball">
-                <span class="pupil">&middot;</span>
+                <span class="pupil"></span>
             </div>
             <div class="beak">
-                <strong>&gt;</strong>
+                <strong></strong>
             </div>
         </div>
         <div class="body">
             <div class="wing">
-                <strong>&lt;</strong>
+                <strong></strong>
             </div>
         </div>
         <div class="drumsticks">
-            <div class="drumstick">|
-                <br />|
+            <div class="drumstick">
+                <br />
             </div>
-            <div class="drumstick-right">|
-                <br />/|
+            <div class="drumstick-right">
+                <br />
             </div>
         </div>
     </div>
