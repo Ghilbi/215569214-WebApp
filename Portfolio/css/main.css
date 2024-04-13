@@ -1794,12 +1794,24 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
+#portfolio #folio-wrapper{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
 #portfolio .folio-item {
+	flex: 0 0 auto;
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	margin: 0;
+	max-width: calc(100% / 3);
 }
 #portfolio .folio-item img {
+	max-width: 100%;
+	height: auto;
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
